@@ -7,7 +7,7 @@ export const FullHeightOverlayScrollbars: React.FC<{
   height: string | number;
 }> = props => {
   return (
-    <OverlayScrollbarsComponent options={{ scrollbars: { autoHide: 'scroll' } }}>
+    <OverlayScrollbarsComponent>
       <div style={{ height: props.height }}>{props.children}</div>
     </OverlayScrollbarsComponent>
   );
