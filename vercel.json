@@ -8,5 +8,5 @@
       "dest": "/index.html"
     }
   ],
-  "outputDirectory": "demo/build"
+  "outputDirectory": "demo/dist"
 }
