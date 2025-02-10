@@ -56,6 +56,7 @@ export function CardItem(props: CardItemProps) {
 
   return (
     <div
+      id={data.article_id}
       key={data.article_id}
       className={styles.templeteItem}
       style={{ backgroundImage: `url(${data.picture})` }}

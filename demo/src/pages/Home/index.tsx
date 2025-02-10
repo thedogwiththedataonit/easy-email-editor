@@ -19,26 +19,28 @@ export default function Home() {
   }, [dispatch]);
 
   return (
-    <Frame
-      title='Templates'
-      primaryAction={
-        <Button
-          onClick={() => {
-            pushEvent({ event: 'Create' });
-            history.push('/editor');
-          }}
-        >
-          Add
-        </Button>
-      }
-    >
-      <>
+
+      <Frame
+        title='Templates'
+        primaryAction={
+          <Button
+            onClick={() => {
+              pushEvent({ event: 'Create' });
+              history.push('/editor');
+            }}
+          >
+            Add
+          </Button>
+        }
+      >
+
         <Stack>
           {[...templates, ...list].map((item) => (
             <CardItem data={item} key={item.article_id} />
           ))}
         </Stack>
-      </>
-    </Frame>
+
+      </Frame>
+
   );
 }
