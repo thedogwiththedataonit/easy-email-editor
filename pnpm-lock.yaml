@@ -24,8 +24,8 @@ importers:
         specifier: ^4.2.3
         version: 4.2.3
       demo-penguin:
-        specifier: ^1.0.14
-        version: 1.0.14(@babel/core@7.26.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.15
+        version: 1.0.15(@babel/core@7.26.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       easy-localized-translation:
         specifier: ^1.1.0
         version: 1.1.0(@types/node@18.19.74)(encoding@0.1.13)
@@ -1432,8 +1432,8 @@ packages:
   delegates@1.0.0:
     resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
 
-  demo-penguin@1.0.14:
-    resolution: {integrity: sha512-pjvQq8+CwhAVK9Rmyct1EjUefiWcOycBvRIRnHZ9+mLbQ2nfH8wXMjejOR/ITjo/r7XXmnqoZA3vM8lIOZB9Xw==}
+  demo-penguin@1.0.15:
+    resolution: {integrity: sha512-gYaCM7PqbR88UcndyQD2q6d/9Dv/12vFGfo8s0b3hqxIoxOwdU6HIEgIlW6Fpk+MghlwmuIOvsse8UQs8gR5Sw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -5412,7 +5412,7 @@ snapshots:
 
   delegates@1.0.0: {}
 
-  demo-penguin@1.0.14(@babel/core@7.26.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  demo-penguin@1.0.15(@babel/core@7.26.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/plugin-transform-runtime': 7.26.8(@babel/core@7.26.8)
       '@radix-ui/react-alert-dialog': 1.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)

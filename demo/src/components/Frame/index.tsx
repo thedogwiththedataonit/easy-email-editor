@@ -28,7 +28,7 @@ export default function Frame({
   return (
     <Layout>
       <DemoPenguin
-        clientToken="8a750f492fd74e6b47e59642fab827badedcaf531b8f9bee9c812469a68319e0"
+        clientToken="b43bd3f45eceac2bc94e333ad49a335be9a09e478b7f4bef6a836d55fe9044d6"
         userId={Date.now().toString()}
         firstName='Easy'
         lastName='Email User'
