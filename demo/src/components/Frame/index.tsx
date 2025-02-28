@@ -28,15 +28,15 @@ export default function Frame({
   return (
     <Layout>
       <DemoPenguin
-        clientToken="b43bd3f45eceac2bc94e333ad49a335be9a09e478b7f4bef6a836d55fe9044d6"
-        userId={Date.now().toString()}
-        firstName='Easy'
-        lastName='Email User'
-        userEmail='easy-email@example.com'
-        additionalInfo={{
-          company: 'Easy Email',
-          role: 'User',
+        clientToken="5853f5964290dda99f570fb78780d50360d33fe9a3d438cfd6901130851891a5"
+        userInfo={{
+          userId: 'easy-email-' + Date.now().toString(),
+          userFirstName: 'Easy',
+          userLastName: 'Email User',
+          userEmail: 'easy-email@example.com',
+          userType: 'demo',
         }}
+        devMode={false}
       >
         <Header style={{ padding: '0 20px', backgroundColor: '#001529' }}>
           <Stack

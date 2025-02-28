@@ -59,6 +59,7 @@
     "axios": "^0.24.0",
     "browser-image-compression": "^1.0.17",
     "dayjs": "^1.11.11",
+    "demo-penguin": "^1.1.6",
     "easy-email-core": "^4.16.1",
     "easy-email-editor": "^4.16.1",
     "easy-email-extensions": "^4.16.1",
