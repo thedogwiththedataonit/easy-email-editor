@@ -54,8 +54,8 @@ importers:
         specifier: ^1.11.11
         version: 1.11.11
       demo-penguin:
-        specifier: ^1.1.6
-        version: 1.1.6(@babel/core@7.18.10)(@types/react@18.0.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.1.7
+        version: 1.1.7(@babel/core@7.18.10)(@types/react@18.0.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       easy-email-core:
         specifier: ^4.16.1
         version: 4.16.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -978,8 +978,8 @@ packages:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
 
-  demo-penguin@1.1.6:
-    resolution: {integrity: sha512-nFbdreZj3TMVJaG2A3Zaq7QB8Qk9mijla5kQkwxO6ZeUtkNPjm3a9fhqlLAjmI4Rutl8orKnf+vHT8VRC+99pw==}
+  demo-penguin@1.1.7:
+    resolution: {integrity: sha512-Ig2iOjiELTeaiCVJxqh2dLyYJL0LoLe5nkVFX8APbwqlsSRsJps4O+ZMA6nC+7+KF5oDyEY58lOwaVpfYZQaaQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -3160,7 +3160,7 @@ snapshots:
 
   deepmerge@4.3.1: {}
 
-  demo-penguin@1.1.6(@babel/core@7.18.10)(@types/react@18.0.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  demo-penguin@1.1.7(@babel/core@7.18.10)(@types/react@18.0.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/plugin-transform-runtime': 7.26.9(@babel/core@7.18.10)
       '@radix-ui/react-alert-dialog': 1.1.6(@types/react@18.0.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
